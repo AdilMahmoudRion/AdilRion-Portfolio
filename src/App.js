@@ -1,9 +1,11 @@
-import './App.css';
+import Banner from "./Components/Pages/Banner/Banner";
+import Navigation from "./Components/Pages/Navigation/Navigation";
 
 function App() {
   return (
     <div >
-      <h1>adil mahmoud</h1>
+      <Navigation></Navigation>
+      <Banner></Banner>
     </div>
   );
 }
