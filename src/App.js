@@ -3,7 +3,7 @@ import './App.css';
 function App() {
   return (
     <div >
-      <h1>adil mahmoud rion</h1>
+      <h1>adil mahmoud</h1>
     </div>
   );
 }
