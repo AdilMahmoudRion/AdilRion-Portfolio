@@ -1,13 +1,11 @@
 import React from 'react';
 import './App.css';
-import Banner from "./Components/Pages/Banner/Banner";
-import Navigation from "./Components/Pages/Navigation/Navigation";
+import Home from './Components/Pages/Home/Home';
 
 function App() {
   return (
     <div className="adilrionWebBody">
-      <Navigation></Navigation>
-      <Banner></Banner>
+     <Home></Home>
     </div>
   );
 }
