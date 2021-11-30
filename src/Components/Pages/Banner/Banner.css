@@ -1,47 +1,65 @@
-body {
-  width: 100vw;
-  height: 100vh;
+.banner-section {
+  background-color: #222222;
+  margin: 4% 6%;
+  padding: 4% 10%;
+  border-radius: 40px;
+}
+.banner-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 4% 4%;
+}
+.banner-img-section {
   display: flex;
   justify-content: center;
-  align-items: center;
-  color: #fff;
 }
-
-.wrapper {
-  height: 70px;
+.banner-img {
+  height: 350px;
+  width: 350px;
+  border-radius: 100%;
+  border: 20px solid #444444;
+  box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.4);
 }
-
-h1 {
-  line-height: 70px;
-  text-shadow: 10px 10px 4px #000000;
-  font-size: 50px;
+.banner-information {
+  padding: 2%;
+}
+.btn {
+  font-weight: 600;
+  background-color: #444444;
+  border-radius: 25px;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
   display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
-
-.text--static {
-  margin-right: 10px;
+.banner-btn1 {
+  font-weight: 600;
+  border: 2px solid #0e6cca;
 }
-
-.text--dynamic {
-  position: relative;
+.banner-btn1:hover {
+  background-color: #0e6cca;
 }
-
-.text--dynamic::after {
-  content: "";
-  position: absolute;
-  margin-left: 5px;
-  width: 2px;
-  height: 100%;
-  animation: blink 300ms ease infinite;
+.banner-btn2 {
+  border: 2px solid #bebbbb;
 }
-
-@keyframes blink {
-  0%,
-  100% {
-    background-color: transparent;
-  }
-
-  50% {
-    background-color: green;
-  }
+.banner-btn2:hover {
+  background-color: #bebbbb;
+  /* color: #c5c5c5; */
+}
+.banner-information h1 {
+  font-size: 48px;
+  margin: 0;
+  color: white;
+}
+.banner-information p {
+  margin: 10px 0;
+  color: #c5c5c5;
+}
+.banner-skill {
+  margin: 0px;
 }
