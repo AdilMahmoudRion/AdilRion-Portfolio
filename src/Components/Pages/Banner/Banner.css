@@ -17,6 +17,7 @@
 .banner-img {
   height: 350px;
   width: 350px;
+
   border-radius: 100%;
   border: 20px solid #444444;
   box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.4);
