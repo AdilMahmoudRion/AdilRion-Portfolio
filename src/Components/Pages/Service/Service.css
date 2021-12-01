@@ -17,11 +17,12 @@
 }
 .Service-section {
   display: grid;
-  grid-gap: 40px 20px;
+  grid-gap: 20% 5%;
   grid-template-columns: repeat(3, 1fr);
 }
 .service-list {
   display: flex;
+  align-items: center;
 }
 .service-list h2 {
   font-size: 20px;
@@ -35,7 +36,7 @@
 }
 .service-text {
   padding-left: 10px;
-  text-align: justify;
+  /* text-align: justify; */
 }
 .service-img {
   width: 90px;

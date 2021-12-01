@@ -10,12 +10,12 @@ const Service = () => {
         </div>
         <div className="Service-section">
           <div className="service-list">
-            <div>
+           
               <img className="service-img"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8YN6c1eYF2UHcOt3x6xyubxJkmwdMCsREgDIn5CcxP2mkgf-xQsQVQBaYYlelEBWwcyk&usqp=CAU"
+                src="https://cdn.auth0.com/blog/optimizing-react/logo.png"
                 alt=""
               />
-            </div>
+          
             <div className="service-text">
               <h2>CREATIVE DESIGN</h2>
               <p className="service-text-details">
@@ -25,14 +25,14 @@ const Service = () => {
             </div>
           </div>
           <div className="service-list">
-            <div>
+          
               <img className="service-img"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8YN6c1eYF2UHcOt3x6xyubxJkmwdMCsREgDIn5CcxP2mkgf-xQsQVQBaYYlelEBWwcyk&usqp=CAU"
+                src="https://cdn-icons-png.flaticon.com/512/1998/1998575.png"
                 alt=""
               />
-            </div>
+        
             <div className="service-text">
-              <h2>CREATIVE DESIGN</h2>
+              <h2>UNLIMITED FEATURES</h2>
               <p className="service-text-details">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum indust.
@@ -40,14 +40,14 @@ const Service = () => {
             </div>
           </div>
           <div className="service-list">
-            <div>
+            
               <img className="service-img"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8YN6c1eYF2UHcOt3x6xyubxJkmwdMCsREgDIn5CcxP2mkgf-xQsQVQBaYYlelEBWwcyk&usqp=CAU"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDcir9PGautXyUB8MVMiNUB02eraqU9S3M6K320N2SJzf0EvV-tkX7XsQ3z9VJNyVjHKI&usqp=CAU"
                 alt=""
               />
-            </div>
+        
             <div className="service-text">
-              <h2>CREATIVE DESIGN</h2>
+              <h2>ULTRA RESPONSIVE</h2>
               <p className="service-text-details">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum indust.
@@ -55,14 +55,14 @@ const Service = () => {
             </div>
           </div>
           <div className="service-list">
-            <div>
+         
               <img className="service-img"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8YN6c1eYF2UHcOt3x6xyubxJkmwdMCsREgDIn5CcxP2mkgf-xQsQVQBaYYlelEBWwcyk&usqp=CAU"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMCXjzBl-BOixcbci-KHEhVDaA7PRgxMe5yyq8lLPoEcMhduf8abFgWbCG46Prihitfeg&usqp=CAU"
                 alt=""
               />
-            </div>
+        
             <div className="service-text">
-              <h2>CREATIVE DESIGN</h2>
+              <h2>CREATIVE IDEAS</h2>
               <p className="service-text-details">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum indust.
@@ -70,14 +70,14 @@ const Service = () => {
             </div>
           </div>
           <div className="service-list">
-            <div>
+         
               <img className="service-img"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8YN6c1eYF2UHcOt3x6xyubxJkmwdMCsREgDIn5CcxP2mkgf-xQsQVQBaYYlelEBWwcyk&usqp=CAU"
+                src="https://thumbs.dreamstime.com/b/customization-rgb-color-icon-system-engineering-configuring-enhancing-user-experience-initial-computer-settings-hardware-213731835.jpg"
                 alt=""
               />
-            </div>
+         
             <div className="service-text">
-              <h2>CREATIVE DESIGN</h2>
+              <h2>EASY CUSTOMIZATION</h2>
               <p className="service-text-details">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum indust.
@@ -85,14 +85,14 @@ const Service = () => {
             </div>
           </div>
           <div className="service-list">
-            <div>
+         
               <img className="service-img"
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8YN6c1eYF2UHcOt3x6xyubxJkmwdMCsREgDIn5CcxP2mkgf-xQsQVQBaYYlelEBWwcyk&usqp=CAU"
+                src="https://image.shutterstock.com/image-vector/support-speech-bubble-on-white-260nw-1169375548.jpg"
                 alt=""
               />
-            </div>
+          
             <div className="service-text">
-              <h2>CREATIVE DESIGN</h2>
+              <h2>SUPPER SUPPORT</h2>
               <p className="service-text-details">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum indust.
