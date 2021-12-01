@@ -57,9 +57,9 @@
   color: white;
 }
 .banner-information p {
-  margin: 10px 0;
   color: #c5c5c5;
 }
-.banner-skill {
-  margin: 0px;
+.banner-skill-details {
+  margin-bottom: 12px;
+  text-align: justify;
 }

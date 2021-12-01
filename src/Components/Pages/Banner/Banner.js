@@ -11,7 +11,7 @@ const Banner = () => {
 				<div className="banner-information">
 					<p className="banner-skill">Web Developer</p>
 					<h1>Adil M Rion</h1>
-					<p>Fusce tempor magna mi, non egestas velit ultricies nec. Aenean convallis, risus non condimentum gravida, odio mauris ullamcorper felis, ut venenatis purus ex eu mi. Quisque imperdiet lacinia urna, a placerat sapien pretium eu.</p>
+					<p className="banner-skill-details">Fusce tempor magna mi, non egestas velit ultricies nec. Aenean convallis, risus non condimentum gravida, odio mauris ullamcorper felis, ut venenatis purus ex eu mi. Quisque imperdiet lacinia urna, a placerat sapien pretium eu.</p>
 					<div>
 						<button className="banner-btn1 btn">Download CV</button>
 						<button className="banner-btn2 btn">Contact</button>
