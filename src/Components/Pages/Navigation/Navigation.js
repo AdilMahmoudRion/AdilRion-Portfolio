@@ -10,7 +10,13 @@ const Navigation = () => {
         <div className="nav-header">
           <div className="nav-title">Adil Mahmoud Rion</div>
         </div>
-
+   <div className="nav-btn">
+                    <label for="nav-check">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                </div>
         <div className="nav-links">
           
           
