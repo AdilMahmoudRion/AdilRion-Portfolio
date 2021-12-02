@@ -60,6 +60,7 @@
 }
 .content span {
   font-size: 1.3rem;
+  color: #c5c5c5;
   text-transform: capitalize;
   font-weight: bold;
 }
