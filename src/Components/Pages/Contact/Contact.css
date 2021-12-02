@@ -33,6 +33,47 @@
   color: #c5c5c5;
 }
 .address-detail p {
-  margin-left: 10px;
-  padding: 8px;
+  /* margin-left: 10px; */
+  padding: 8px 0;
+}
+.icon {
+  width: 25px;
+}
+.add-info {
+  padding: 0 15%;
+}
+/* from  */
+.form-section {
+  width: 80%;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.form-control {
+  margin: 8px 0;
+  padding: 10px 5px;
+  border-style: none;
+  background-color: #152136;
+  border: 1px solid #c5c5c5;
+  color: #c5c5c5;
+}
+
+.form-control:hover {
+  background-color: #152136;
+  border-style: none;
+  border: 1px solid #adadad;
+}
+::placeholder {
+  color: #c5c5c5;
+  opacity: 1;
+}
+.from-btn {
+  border-style: none;
+  background-color: #152136;
+  border: 2px solid #0e6cca;
+  padding: 5px 0;
+  color: white;
+  font-size: medium;
+  font-weight: 700;
 }
