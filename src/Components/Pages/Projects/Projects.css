@@ -104,3 +104,9 @@
     border-color: #4b2566 !important;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .cardBody {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

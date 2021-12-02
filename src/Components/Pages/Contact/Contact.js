@@ -73,6 +73,7 @@ const Contact = () => {
         </div>
       </div>
       <div>
+      <h2 className="header">SEND EMAIL</h2>
         <div className="form-section">
           <form onSubmit={sendEmail}>
             <div className="form">

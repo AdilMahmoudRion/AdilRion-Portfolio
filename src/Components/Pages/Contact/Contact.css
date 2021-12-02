@@ -83,3 +83,20 @@
   font-size: 50px;
   color: #0e6cca;
 }
+@media only screen and (max-width: 600px) {
+  .contact-from {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .add-info {
+    padding: 0;
+  }
+  .con-header {
+    text-align: center;
+    margin: 15px 0;
+    font-size: 35px;
+    color: #0e6cca;
+  }
+  .form-section {
+    width: 100%;
+  }
+}

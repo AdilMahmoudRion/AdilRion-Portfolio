@@ -43,3 +43,16 @@
   height: 90px;
   border-radius: 100%;
 }
+@media only screen and (max-width: 600px) {
+  .Service-section {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+  }
+  .service-list {
+    flex-direction: column;
+    align-items: center;
+  }
+  .service-text {
+    text-align: center;
+  }
+}

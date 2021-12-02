@@ -15,8 +15,8 @@
   justify-content: center;
 }
 .banner-img {
-  height: 350px;
-  width: 350px;
+  height: 320px;
+  width: 320px;
 
   border-radius: 100%;
   border: 20px solid #444444;
@@ -37,6 +37,7 @@
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  width: 177px;
 }
 .banner-btn1 {
   font-weight: 600;
@@ -67,4 +68,17 @@
 .d-link {
   text-decoration: none;
   color: white;
+}
+/* ............. */
+@media only screen and (max-width: 600px) {
+  .banner-item {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    padding: 4% 4%;
+  }
+  .banner-img {
+    height: 35vh;
+    width: 100%;
+  }
 }
