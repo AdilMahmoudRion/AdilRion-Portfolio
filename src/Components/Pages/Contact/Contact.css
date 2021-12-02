@@ -77,3 +77,9 @@
   font-size: medium;
   font-weight: 700;
 }
+.con-header {
+  text-align: center;
+  margin: 15px 0;
+  font-size: 50px;
+  color: #0e6cca;
+}

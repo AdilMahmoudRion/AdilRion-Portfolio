@@ -29,7 +29,12 @@ const Contact = () => {
   }
 
   return (
-    <div id="contact" className="contact-from">
+    <div id="contact">
+      <div>
+        <h1 className="con-header">CONTACT WITH US</h1>
+      </div>
+      <div  className="contact-from">
+      
       <div className="add-info">
         <h2 className="header">INFORMATION</h2>
         <h1>CONTACT INFORMATION</h1>
@@ -107,6 +112,7 @@ const Contact = () => {
           </form>
         </div>
       </div>
+    </div>
     </div>
   );
 };
