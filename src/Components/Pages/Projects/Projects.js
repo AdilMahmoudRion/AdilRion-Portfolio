@@ -9,7 +9,7 @@ import p5 from "../../Images/p5.png";
 
 const Projects = () => {
   return (
-    <div className="projectCard">
+    <div id="projects" className="projectCard">
       <div className="serviceHeader">
         <p>PORTFOLIO SHOWCASE</p>
         <h1>MY RECENT WORKS</h1>

@@ -7,6 +7,7 @@ import About from "./Components/Pages/About/About";
 import Service from "./Components/Pages/Service/Service";
 import Projects from "./Components/Pages/Projects/Projects";
 import Blog from "./Components/Pages/Blog/Blog";
+import Contact from "./Components/Pages/Contact/Contact";
 
 function App() {
   return (
@@ -31,6 +32,9 @@ function App() {
           </Route>
           <Route path="/blog">
             <Blog></Blog>
+          </Route>
+          <Route path="/contact">
+            <Contact></Contact>
           </Route>
           <Route path="/*"></Route>
         </Switch>
