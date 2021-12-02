@@ -1,5 +1,7 @@
 import React from 'react';
 import './Navigation.css';
+import { Link } from 'react-router-dom';
+import { NavHashLink } from 'react-router-hash-link';
 
 const Navigation = () => {
     return (
@@ -20,12 +22,12 @@ const Navigation = () => {
                 </div>
 
                 <div className="nav-links">
-                    <a href="#" target="_blank">Home</a>
-                    <a href="#" target="_blank">About</a>
-                    <a href="#">Service</a>
-                    <a href="#" target="_blank">Portfolio</a>
-                    <a href="#" target="_blank">Blog</a>
-                    <a href="#" target="_blank">Contact</a>
+                    <Link  as={NavHashLink} to="/home#home">Home</Link>
+                    <Link as={NavHashLink} to="/about#about">About</Link>
+                    <Link as={NavHashLink} to="/service#service">Service</Link>
+                    <Link as={NavHashLink} to="/projects#projects" >Portfolio</Link>
+                    <Link as={NavHashLink} to="/blog#blog" >Blog</Link>
+                    <Link as={NavHashLink} to="#">Contact</Link>
                 </div>
             </div>
         </div>
